@@ -1,0 +1,32 @@
+{
+  "name": "sms-infobip",
+  "description": "Send SMS text messages using the Infobip API",
+  "version": "0.0.1",
+  "keywords": [
+    "mcms",
+    "sms",
+    "bulk-sms",
+    "infobip"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "Michael Bouclas",
+    "email": "mbouclas@gmail.com",
+    "url": "http://www.net-tomorrow.com/"
+  },
+  "directories": {
+    "lib": "./lib/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbouclas/mcms-node-localization"
+  },
+  "bugs": {
+    "url": "https://github.com/mbouclas/mcms-node-localization/issues"
+  },
+  "readmeFilename": "readme.md",
+  "main": "./lib/index",
+  "dependencies": {
+    "request": "^2.62.0"
+  }
+}
