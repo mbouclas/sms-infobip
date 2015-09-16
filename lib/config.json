@@ -1,0 +1,12 @@
+{
+  "apiUrl" : "https://api.infobip.com",
+  "apiEndPoints" : {
+    "single" : "/sms/1/text/single",
+    "singleBinary" : "/sms/1/binary/single",
+    "multiple" : "/sms/1/text/multi",
+    "multipleBinary" : "/sms/1/binary/multi",
+    "advanced" : "/sms/1/text/advanced",
+    "reports" : "/sms/1/reports",
+    "logs" : "/sms/1/logs"
+  }
+}

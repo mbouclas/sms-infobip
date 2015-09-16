@@ -27,6 +27,7 @@
   "readmeFilename": "readme.md",
   "main": "./lib/index",
   "dependencies": {
+    "lodash": "^3.10.1",
     "request": "^2.62.0"
   }
 }
