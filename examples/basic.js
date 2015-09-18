@@ -1,4 +1,5 @@
 var config = {
+    debug : true,
     notifyUrl : '',
     notifyContentType : '',
     callbackData : ''
@@ -8,6 +9,8 @@ var SMS = new InfobipSms('MyUserName','MyPassword',config);
 var msg = 'standard message send €ΑΣΔδσδσσ3εσάέδ';
 var longMsg = 'standard message send €ΑΣΔδσδσσ3εσάέδ€standard message send €ΑΣΔδσδσσ3εσάέδ€standard message send €ΑΣΔδσδσσ3εσάέδ€standard message send €ΑΣΔδσδσσ3εσάέδ€';
 
+
+SMS.setOption('callbackData',JSON.stringify({jobId : 1}));
 
 SMS.send('MeMySelf',['phoneNumber'],msg,function(err,result){
     if (err){

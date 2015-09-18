@@ -1,7 +1,7 @@
 {
   "name": "sms-infobip",
   "description": "Send SMS text messages using the Infobip API",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "keywords": [
     "mcms",
     "sms",
@@ -24,7 +24,7 @@
   "bugs": {
     "url": "https://github.com/mbouclas/sms-infobip/issues"
   },
-  "readmeFilename": "readme.md",
+  "readmeFilename": "README.md",
   "main": "./lib/index",
   "dependencies": {
     "lodash": "^3.10.1",
