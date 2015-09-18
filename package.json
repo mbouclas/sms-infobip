@@ -1,7 +1,7 @@
 {
   "name": "sms-infobip",
   "description": "Send SMS text messages using the Infobip API",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "keywords": [
     "mcms",
     "sms",
